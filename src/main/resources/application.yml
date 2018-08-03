@@ -2,6 +2,17 @@ spring.profiles.active: dev
 
 ---
 
+server:
+  address: 10.48.48.176
+  port: 8000
+
+---
+
+flyway:
+  baselineOnMigrate: true
+
+---
+
 spring:
   profiles: dev
   datasource:

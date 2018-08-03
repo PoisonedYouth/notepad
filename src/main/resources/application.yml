@@ -8,11 +8,6 @@ server:
 
 ---
 
-flyway:
-  baselineOnMigrate: true
-
----
-
 spring:
   profiles: dev
   datasource:
